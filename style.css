@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+body{
+    background: url(./lala.jpg) no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-content{
+    background: url(./lala.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    box-shadow: 4px 3px 15px #11111180;
+}
+
+.form-img{
+    min-width: 350px;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.form{
+    background-color: #1b1435;
+    min-width: 350px;
+    min-height: 570px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.login{
+    width: 80%;
+}
+
+.form-title{
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    gap: 5px;
+}
+
+.form-group label{
+    font-style: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #fff;
+    text-align: left;
+    font-weight: 300;
+}
+
+.form-group input{
+    width: 100%;
+    padding: 3px 5px;
+    font-size: 16px;
+    outline: none;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    box-sizing: border-box;
+
+}
+.checkbox{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 15px;   
+}
+.checkbox label{
+    color: #fff;
+    font-weight: 300;
+    font-style: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    user-select: none;
+}
+.button{
+    border: none;
+    outline: none;
+    background-color: #ffffff80;
+    padding: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 15px;
+
+}
+.change-form{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-style: 16px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.form .register{
+    display: block;
+}
+.form .login{
+    display: none;
+}
+
+.form-active .register{
+    display: none;
+}
+.form-active .login{
+    display: block;
+   
+}
+
+@media only screen and (max-width: 768px)
+{
+    .form-content{
+        flex-direction: column;
+    }
+    
+}
+.your-logo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #1b1435;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #fff;
+}
